@@ -158,3 +158,9 @@ endif()
 add_library(OculusVR STATIC ${SOURCE_FILES} ${HEADER_FILES})
 set(OVR_LIBRARIES ${OculusVR_EXTRA_LIBS} CACHE STRING "Dependencies of OculusVR")
 target_link_libraries(OculusVR ${OculusVR_EXTRA_LIBS})
+
+install(TARGETS OculusVR
+  DESTINATION ${CMAKE_INSTALL_PREFIX}/lib) 
+
+install(DIRECTORY Include/
+  DESTINATION ${CMAKE_INSTALL_PREFIX}/include)
