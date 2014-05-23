@@ -24,8 +24,8 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "OVR_Timer.h"
-#include "OVR_Log.h"
+#include <OVR/Kernel/OVR_Timer.h>
+#include <OVR/Kernel/OVR_Log.h>
 
 #if defined (OVR_OS_WIN32)
 #include <windows.h>

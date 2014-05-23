@@ -24,11 +24,11 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "OVR_Linux_HMDDevice.h"
+#include <OVR/OVR_Linux_HMDDevice.h>
 
-#include "OVR_Linux_DeviceManager.h"
+#include <OVR/OVR_Linux_DeviceManager.h>
 
-#include "OVR_Profile.h"
+#include <OVR/OVR_Profile.h>
 
 #include "edid.h"
 

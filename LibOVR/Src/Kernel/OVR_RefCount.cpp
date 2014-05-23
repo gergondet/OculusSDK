@@ -24,9 +24,9 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "OVR_RefCount.h"
-#include "OVR_Atomic.h"
-#include "OVR_Log.h"
+#include <OVR/Kernel/OVR_RefCount.h>
+#include <OVR/Kernel/OVR_Atomic.h>
+#include <OVR/Kernel/OVR_Log.h>
 
 namespace OVR {
 

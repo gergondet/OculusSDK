@@ -25,7 +25,7 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "OVR_String.h"
+#include <OVR/Kernel/OVR_String.h>
 
 #include <stdlib.h>
 #include <ctype.h>

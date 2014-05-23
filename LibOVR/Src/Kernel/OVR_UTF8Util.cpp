@@ -26,7 +26,7 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "OVR_UTF8Util.h"
+#include <OVR/Kernel/OVR_UTF8Util.h>
 
 namespace OVR { namespace UTF8Util {
 

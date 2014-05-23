@@ -8,8 +8,8 @@ list(APPEND CMAKE_MODULE_PATH
 )
 
 # Comment out these two lines to disable the debug build
-set(CMAKE_BUILD_TYPE "Debug")
-add_definitions(-DOVR_BUILD_DEBUG)
+set(CMAKE_BUILD_TYPE "RelWithDebInfo")
+#add_definitions(-DOVR_BUILD_DEBUG)
 
 #set(CMAKE_VERBOSE_MAKEFILE ON)
 
@@ -34,7 +34,7 @@ add_subdirectory(LibOVR)
 # Sample code support
 #
 
-option(OCULUS_BUILD_SAMPLES "Build Oculus demos" TRUE)
+option(OCULUS_BUILD_SAMPLES "Build Oculus demos" FALSE)
 
 if(OCULUS_BUILD_SAMPLES)
     # Make sure to set up the OVR include paths

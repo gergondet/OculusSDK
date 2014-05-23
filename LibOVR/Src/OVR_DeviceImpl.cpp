@@ -24,14 +24,14 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "OVR_DeviceImpl.h"
-#include "Kernel/OVR_Atomic.h"
-#include "Kernel/OVR_Log.h"
-#include "Kernel/OVR_System.h"
+#include <OVR/OVR_DeviceImpl.h>
+#include <OVR/Kernel/OVR_Atomic.h>
+#include <OVR/Kernel/OVR_Log.h>
+#include <OVR/Kernel/OVR_System.h>
 
-#include "OVR_DeviceImpl.h"
-#include "OVR_SensorImpl.h"
-#include "OVR_Profile.h"
+#include <OVR/OVR_DeviceImpl.h>
+#include <OVR/OVR_SensorImpl.h>
+#include <OVR/OVR_Profile.h>
 
 namespace OVR {
 

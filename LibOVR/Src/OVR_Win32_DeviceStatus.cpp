@@ -24,11 +24,11 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "OVR_Win32_DeviceStatus.h"
+#include <OVR/OVR_Win32_DeviceStatus.h>
 
-#include "OVR_Win32_HIDDevice.h"
+#include <OVR/OVR_Win32_HIDDevice.h>
 
-#include "Kernel/OVR_Log.h"
+#include <OVR/Kernel/OVR_Log.h>
 
 #include <dbt.h>
 

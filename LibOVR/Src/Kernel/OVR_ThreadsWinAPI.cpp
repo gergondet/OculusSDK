@@ -25,9 +25,9 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "OVR_Threads.h"
-#include "OVR_Hash.h"
-#include "OVR_Log.h"
+#include <OVR/Kernel/OVR_Threads.h>
+#include <OVR/Kernel/OVR_Hash.h>
+#include <OVR/Kernel/OVR_Log.h>
 
 #ifdef OVR_ENABLE_THREADS
 

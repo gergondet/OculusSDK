@@ -24,17 +24,17 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "OVR_OSX_DeviceManager.h"
+#include <OVR/OVR_OSX_DeviceManager.h>
 
 // Sensor & HMD Factories
-#include "OVR_LatencyTestImpl.h"
-#include "OVR_SensorImpl.h"
-#include "OVR_OSX_HMDDevice.h"
-#include "OVR_OSX_HIDDevice.h"
+#include <OVR/OVR_LatencyTestImpl.h>
+#include <OVR/OVR_SensorImpl.h>
+#include <OVR/OVR_OSX_HMDDevice.h>
+#include <OVR/OVR_OSX_HIDDevice.h>
 
-#include "Kernel/OVR_Timer.h"
-#include "Kernel/OVR_Std.h"
-#include "Kernel/OVR_Log.h"
+#include <OVR/Kernel/OVR_Timer.h>
+#include <OVR/Kernel/OVR_Std.h>
+#include <OVR/Kernel/OVR_Log.h>
 
 #include <IOKit/hid/IOHIDManager.h>
 #include <IOKit/hid/IOHIDKeys.h>

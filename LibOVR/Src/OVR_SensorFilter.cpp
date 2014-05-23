@@ -25,7 +25,7 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "OVR_SensorFilter.h"
+#include <OVR/OVR_SensorFilter.h>
 
 namespace OVR {
 

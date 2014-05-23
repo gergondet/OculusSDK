@@ -26,7 +26,7 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "OVR_Atomic.h"
+#include <OVR/Kernel/OVR_Atomic.h>
 
 #ifdef OVR_ENABLE_THREADS
 

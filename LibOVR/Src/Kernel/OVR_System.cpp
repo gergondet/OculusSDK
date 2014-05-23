@@ -25,9 +25,9 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "OVR_System.h"
-#include "OVR_Threads.h"
-#include "OVR_Timer.h"
+#include <OVR/Kernel/OVR_System.h>
+#include <OVR/Kernel/OVR_Threads.h>
+#include <OVR/Kernel/OVR_Timer.h>
 
 namespace OVR {
 

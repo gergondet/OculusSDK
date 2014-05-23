@@ -24,8 +24,8 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "OVR_String.h"
-#include "OVR_Log.h"
+#include <OVR/Kernel/OVR_String.h>
+#include <OVR/Kernel/OVR_Log.h>
 
 namespace OVR {
 

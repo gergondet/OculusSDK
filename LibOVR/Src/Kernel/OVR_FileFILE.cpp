@@ -27,8 +27,8 @@ limitations under the License.
 
 #define  GFILE_CXX
 
-#include "OVR_Types.h"
-#include "OVR_Log.h"
+#include <OVR/Kernel/OVR_Types.h>
+#include <OVR/Kernel/OVR_Log.h>
 
 // Standard C library (Captain Obvious guarantees!)
 #include <stdio.h>
@@ -36,7 +36,7 @@ limitations under the License.
 #include <sys/stat.h>
 #endif
 
-#include "OVR_SysFile.h"
+#include <OVR/Kernel/OVR_SysFile.h>
 
 #ifndef OVR_OS_WINCE
 #include <errno.h>

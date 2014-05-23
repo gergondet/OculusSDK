@@ -24,8 +24,8 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "OVR_Math.h"
-#include "OVR_Log.h"
+#include <OVR/Kernel/OVR_Math.h>
+#include <OVR/Kernel/OVR_Log.h>
 
 #include <float.h>
 

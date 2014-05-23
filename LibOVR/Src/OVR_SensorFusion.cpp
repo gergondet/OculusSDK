@@ -24,11 +24,11 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "OVR_SensorFusion.h"
-#include "Kernel/OVR_Log.h"
-#include "Kernel/OVR_System.h"
-#include "OVR_JSON.h"
-#include "OVR_Profile.h"
+#include <OVR/OVR_SensorFusion.h>
+#include <OVR/Kernel/OVR_Log.h>
+#include <OVR/Kernel/OVR_System.h>
+#include <OVR/OVR_JSON.h>
+#include <OVR/OVR_Profile.h>
 
 #define MAX_DEVICE_PROFILE_MAJOR_VERSION 1
 

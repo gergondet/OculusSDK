@@ -24,7 +24,7 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "OVR_Types.h"
+#include <OVR/Kernel/OVR_Types.h>
 
 namespace OVR { namespace Alg {
 

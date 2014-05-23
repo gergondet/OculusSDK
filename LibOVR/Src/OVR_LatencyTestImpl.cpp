@@ -24,7 +24,7 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "OVR_LatencyTestImpl.h"
+#include <OVR/OVR_LatencyTestImpl.h>
 
 namespace OVR {
 

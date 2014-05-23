@@ -24,7 +24,7 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "OVR_Allocator.h"
+#include <OVR/Kernel/OVR_Allocator.h>
 #ifdef OVR_OS_MAC
  #include <stdlib.h>
 #else

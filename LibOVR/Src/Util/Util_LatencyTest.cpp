@@ -24,10 +24,10 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "Util_LatencyTest.h"
+#include <OVR/Util/Util_LatencyTest.h>
 
-#include "../Kernel/OVR_Log.h"
-#include "../Kernel/OVR_Timer.h"
+#include <OVR/Kernel/OVR_Log.h>
+#include <OVR/Kernel/OVR_Timer.h>
 
 namespace OVR { namespace Util {
 

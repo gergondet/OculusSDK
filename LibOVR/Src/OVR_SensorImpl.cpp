@@ -24,11 +24,11 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "OVR_SensorImpl.h"
+#include <OVR/OVR_SensorImpl.h>
 
 // HMDDeviceDesc can be created/updated through Sensor carrying DisplayInfo.
 
-#include "Kernel/OVR_Timer.h"
+#include <OVR/Kernel/OVR_Timer.h>
 
 #include <iostream>
 

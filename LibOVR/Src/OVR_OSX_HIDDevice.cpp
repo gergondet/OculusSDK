@@ -23,7 +23,7 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "OVR_OSX_HIDDevice.h"
+#include <OVR/OVR_OSX_HIDDevice.h>
 
 #include <IOKit/usb/IOUSBLib.h>
 

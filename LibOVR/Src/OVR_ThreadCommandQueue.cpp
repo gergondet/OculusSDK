@@ -24,7 +24,7 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "OVR_ThreadCommandQueue.h"
+#include <OVR/OVR_ThreadCommandQueue.h>
 
 namespace OVR {
 

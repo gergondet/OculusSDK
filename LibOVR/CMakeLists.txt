@@ -1,6 +1,6 @@
 project (LibOVR)
 
-include_directories(Include Src Src/Kernel Src/Util)
+include_directories(Include)
 
 set(SOURCE_FILES
     Src/Kernel/OVR_Alg.cpp
@@ -34,49 +34,49 @@ set(SOURCE_FILES
 
 set(HEADER_FILES
     Include/OVR.h
-    Include/OVRVersion.h 
-    Src/Kernel/OVR_Alg.h
-    Src/Kernel/OVR_Allocator.h
-    Src/Kernel/OVR_Array.h
-    Src/Kernel/OVR_Atomic.h
-    Src/Kernel/OVR_Color.h
-    Src/Kernel/OVR_ContainerAllocator.h
-    Src/Kernel/OVR_File.h
-    Src/Kernel/OVR_Hash.h
-    Src/Kernel/OVR_KeyCodes.h
-    Src/Kernel/OVR_List.h
-    Src/Kernel/OVR_Log.h
-    Src/Kernel/OVR_Math.h
-    Src/Kernel/OVR_RefCount.h
-    Src/Kernel/OVR_Std.h
-    Src/Kernel/OVR_String.h
-    Src/Kernel/OVR_SysFile.h
-    Src/Kernel/OVR_System.h
-    Src/Kernel/OVR_Timer.h
-    Src/Kernel/OVR_Threads.h
-    Src/Kernel/OVR_Types.h
-    Src/Kernel/OVR_UTF8Util.h
-    Src/OVR_Device.h
-    Src/OVR_DeviceConstants.h
-    Src/OVR_DeviceHandle.h
-    Src/OVR_DeviceImpl.h
-    Src/OVR_DeviceMessages.h
-    Src/OVR_HIDDevice.h
-    Src/OVR_HIDDeviceBase.h
-    Src/OVR_HIDDeviceImpl.h
-    Src/OVR_JSON.h
-    Src/OVR_LatencyTestImpl.h
-    Src/OVR_Profile.h
-    Src/OVR_SensorFilter.h
-    Src/OVR_SensorFusion.h
-    Src/OVR_SensorImpl.h
-    Src/OVR_ThreadCommandQueue.h
-    Src/Util/Util_LatencyTest.h
-    Src/Util/Util_Render_Stereo.h
+    Include/OVRVersion.h
+    Include/OVR/Kernel/OVR_Alg.h
+    Include/OVR/Kernel/OVR_Allocator.h
+    Include/OVR/Kernel/OVR_Array.h
+    Include/OVR/Kernel/OVR_Atomic.h
+    Include/OVR/Kernel/OVR_Color.h
+    Include/OVR/Kernel/OVR_ContainerAllocator.h
+    Include/OVR/Kernel/OVR_File.h
+    Include/OVR/Kernel/OVR_Hash.h
+    Include/OVR/Kernel/OVR_KeyCodes.h
+    Include/OVR/Kernel/OVR_List.h
+    Include/OVR/Kernel/OVR_Log.h
+    Include/OVR/Kernel/OVR_Math.h
+    Include/OVR/Kernel/OVR_RefCount.h
+    Include/OVR/Kernel/OVR_Std.h
+    Include/OVR/Kernel/OVR_String.h
+    Include/OVR/Kernel/OVR_SysFile.h
+    Include/OVR/Kernel/OVR_System.h
+    Include/OVR/Kernel/OVR_Timer.h
+    Include/OVR/Kernel/OVR_Threads.h
+    Include/OVR/Kernel/OVR_Types.h
+    Include/OVR/Kernel/OVR_UTF8Util.h
+    Include/OVR/OVR_Device.h
+    Include/OVR/OVR_DeviceConstants.h
+    Include/OVR/OVR_DeviceHandle.h
+    Include/OVR/OVR_DeviceImpl.h
+    Include/OVR/OVR_DeviceMessages.h
+    Include/OVR/OVR_HIDDevice.h
+    Include/OVR/OVR_HIDDeviceBase.h
+    Include/OVR/OVR_HIDDeviceImpl.h
+    Include/OVR/OVR_JSON.h
+    Include/OVR/OVR_LatencyTestImpl.h
+    Include/OVR/OVR_Profile.h
+    Include/OVR/OVR_SensorFilter.h
+    Include/OVR/OVR_SensorFusion.h
+    Include/OVR/OVR_SensorImpl.h
+    Include/OVR/OVR_ThreadCommandQueue.h
+    Include/OVR/Util/Util_LatencyTest.h
+    Include/OVR/Util/Util_Render_Stereo.h
 )
 
 if(WIN32)
-    list(APPEND SOURCE_FILES 
+    list(APPEND SOURCE_FILES
         Src/Kernel/OVR_ThreadsWinAPI.cpp
         Src/OVR_Win32_DeviceManager.cpp
         Src/OVR_Win32_DeviceStatus.cpp
@@ -85,14 +85,14 @@ if(WIN32)
         Src/OVR_Win32_SensorDevice.cpp
     )
     list(APPEND HEADER_FILES
-        Src/OVR_Win32_DeviceManager.h
-        Src/OVR_Win32_DeviceStatus.h
-        Src/OVR_Win32_HIDDevice.h
-        Src/OVR_Win32_HMDDevice.h
-        Src/OVR_Win32_SensorDevice.h
+        Include/OVR/OVR_Win32_DeviceManager.h
+        Include/OVR/OVR_Win32_DeviceStatus.h
+        Include/OVR/OVR_Win32_HIDDevice.h
+        Include/OVR/OVR_Win32_HMDDevice.h
+        Include/OVR/OVR_Win32_SensorDevice.h
     )
 elseif(APPLE)
-    list(APPEND SOURCE_FILES 
+    list(APPEND SOURCE_FILES
         Src/Kernel/OVR_ThreadsPthread.cpp
         Src/OVR_OSX_DeviceManager.cpp
         Src/OVR_OSX_HIDDevice.cpp
@@ -100,12 +100,12 @@ elseif(APPLE)
         Src/OVR_OSX_SensorDevice.cpp
     )
     list(APPEND HEADER_FILES
-        Src/OVR_OSX_DeviceManager.h
-        Src/OVR_OSX_HIDDevice.h
-        Src/OVR_OSX_HMDDevice.h
+        Include/OVR/OVR_OSX_DeviceManager.h
+        Include/OVR/OVR_OSX_HIDDevice.h
+        Include/OVR/OVR_OSX_HMDDevice.h
     )
 else()
-    list(APPEND SOURCE_FILES 
+    list(APPEND SOURCE_FILES
         Src/Kernel/OVR_ThreadsPthread.cpp
         Src/OVR_Linux_DeviceManager.cpp
         Src/OVR_Linux_HIDDevice.cpp
@@ -113,9 +113,9 @@ else()
         Src/OVR_Linux_SensorDevice.cpp
     )
     list(APPEND HEADER_FILES
-        Src/OVR_Linux_DeviceManager.h
-        Src/OVR_Linux_HIDDevice.h
-        Src/OVR_Linux_HMDDevice.h
+        Include/OVR/OVR_Linux_DeviceManager.h
+        Include/OVR/OVR_Linux_HIDDevice.h
+        Include/OVR/OVR_Linux_HMDDevice.h
     )
 endif()
 
@@ -132,7 +132,7 @@ elseif(APPLE)
 else()
     # Used by the SDK to read the EDID of the monitors
     add_subdirectory(
-        ${CMAKE_CURRENT_SOURCE_DIR}/../3rdParty/EDID 
+        ${CMAKE_CURRENT_SOURCE_DIR}/../3rdParty/EDID
         ${CMAKE_CURRENT_BINARY_DIR}/../3rdParty/EDID
     )
     include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../3rdParty/EDID)
@@ -146,8 +146,8 @@ else()
     endif()
 
     # Set up library and include paths
-    list(APPEND OculusVR_EXTRA_LIBS 
-        ${X11_X11_LIB} 
+    list(APPEND OculusVR_EXTRA_LIBS
+        ${X11_X11_LIB}
         ${X11_Xrandr_LIB}
         ${CMAKE_THREAD_LIBS_INIT}
         edid udev

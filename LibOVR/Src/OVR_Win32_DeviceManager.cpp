@@ -24,18 +24,18 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "OVR_Win32_DeviceManager.h"
+#include <OVR/OVR_Win32_DeviceManager.h>
 
 // Sensor & HMD Factories
-#include "OVR_SensorImpl.h"
-#include "OVR_LatencyTestImpl.h"
-#include "OVR_Win32_HMDDevice.h"
-#include "OVR_Win32_DeviceStatus.h"
-#include "OVR_Win32_HIDDevice.h"
+#include <OVR/OVR_SensorImpl.h>
+#include <OVR/OVR_LatencyTestImpl.h>
+#include <OVR/OVR_Win32_HMDDevice.h>
+#include <OVR/OVR_Win32_DeviceStatus.h>
+#include <OVR/OVR_Win32_HIDDevice.h>
 
-#include "Kernel/OVR_Timer.h"
-#include "Kernel/OVR_Std.h"
-#include "Kernel/OVR_Log.h"
+#include <OVR/Kernel/OVR_Timer.h>
+#include <OVR/Kernel/OVR_Std.h>
+#include <OVR/Kernel/OVR_Log.h>
 
 DWORD Debug_WaitedObjectCount = 0;
 

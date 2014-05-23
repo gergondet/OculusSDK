@@ -26,11 +26,11 @@ limitations under the License.
 
 #pragma comment(lib, "setupapi.lib")
 
-#include "OVR_Win32_HIDDevice.h"
-#include "OVR_Win32_DeviceManager.h"
+#include <OVR/OVR_Win32_HIDDevice.h>
+#include <OVR/OVR_Win32_DeviceManager.h>
 
-#include "Kernel/OVR_System.h"
-#include "Kernel/OVR_Log.h"
+#include <OVR/Kernel/OVR_System.h>
+#include <OVR/Kernel/OVR_Log.h>
 
 namespace OVR { namespace Win32 {
 

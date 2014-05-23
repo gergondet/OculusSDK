@@ -23,13 +23,13 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "OVR_Linux_HIDDevice.h"
+#include <OVR/OVR_Linux_HIDDevice.h>
 
 #include <sys/ioctl.h>
 #include <fcntl.h>
 #include <errno.h>
 #include <linux/hidraw.h>
-#include "OVR_HIDDeviceImpl.h"
+#include <OVR/OVR_HIDDeviceImpl.h>
 
 namespace OVR { namespace Linux {
 

@@ -25,13 +25,13 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "OVR_Threads.h"
-#include "OVR_Hash.h"
+#include <OVR/Kernel/OVR_Threads.h>
+#include <OVR/Kernel/OVR_Hash.h>
 
 #ifdef OVR_ENABLE_THREADS
 
-#include "OVR_Timer.h"
-#include "OVR_Log.h"
+#include <OVR/Kernel/OVR_Timer.h>
+#include <OVR/Kernel/OVR_Log.h>
 
 #include <pthread.h>
 #include <time.h>

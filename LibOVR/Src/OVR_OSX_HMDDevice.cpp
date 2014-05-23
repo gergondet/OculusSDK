@@ -24,7 +24,7 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "OVR_OSX_HMDDevice.h"
+#include <OVR/OVR_OSX_HMDDevice.h>
 #include <CoreGraphics/CGDirectDisplay.h>
 #include <CoreGraphics/CGDisplayConfiguration.h>
 #include <CoreFoundation/CoreFoundation.h>

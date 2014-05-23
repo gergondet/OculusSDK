@@ -24,9 +24,9 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "OVR_DeviceHandle.h"
+#include <OVR/OVR_DeviceHandle.h>
 
-#include "OVR_DeviceImpl.h"
+#include <OVR/OVR_DeviceImpl.h>
 
 namespace OVR {
 

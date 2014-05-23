@@ -24,7 +24,7 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "Util_Render_Stereo.h"
+#include <OVR/Util/Util_Render_Stereo.h>
 
 namespace OVR { namespace Util { namespace Render {
 

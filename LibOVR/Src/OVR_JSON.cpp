@@ -56,9 +56,9 @@ limitations under the License.
 #include <float.h>
 #include <limits.h>
 #include <ctype.h>
-#include "OVR_JSON.h"
-#include "Kernel/OVR_SysFile.h"
-#include "Kernel/OVR_Log.h"
+#include <OVR/OVR_JSON.h>
+#include <OVR/Kernel/OVR_SysFile.h>
+#include <OVR/Kernel/OVR_Log.h>
 
 namespace OVR {
 

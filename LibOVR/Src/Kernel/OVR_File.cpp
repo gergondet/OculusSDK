@@ -30,7 +30,7 @@ limitations under the License.
 // Standard C library (Captain Obvious guarantees!)
 #include <stdio.h>
 
-#include "OVR_File.h"
+#include <OVR/Kernel/OVR_File.h>
 
 namespace OVR {
 

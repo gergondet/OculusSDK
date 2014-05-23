@@ -24,8 +24,8 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "OVR_Log.h"
-#include "OVR_Std.h"
+#include <OVR/Kernel/OVR_Log.h>
+#include <OVR/Kernel/OVR_Std.h>
 #include <stdarg.h>
 #include <stdio.h>
 

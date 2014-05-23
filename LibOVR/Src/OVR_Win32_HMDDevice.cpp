@@ -24,9 +24,9 @@ limitations under the License.
 
 *************************************************************************************/
 
-#include "OVR_Win32_HMDDevice.h"
+#include <OVR/OVR_Win32_HMDDevice.h>
 
-#include "OVR_Win32_DeviceManager.h"
+#include <OVR/OVR_Win32_DeviceManager.h>
 
 #include <tchar.h>
 

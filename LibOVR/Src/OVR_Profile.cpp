@@ -31,12 +31,12 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "OVR_Profile.h"
-#include "OVR_JSON.h"
-#include "Kernel/OVR_Types.h"
-#include "Kernel/OVR_SysFile.h"
-#include "Kernel/OVR_Allocator.h"
-#include "Kernel/OVR_Array.h"
+#include <OVR/OVR_Profile.h>
+#include <OVR/OVR_JSON.h>
+#include <OVR/Kernel/OVR_Types.h>
+#include <OVR/Kernel/OVR_SysFile.h>
+#include <OVR/Kernel/OVR_Allocator.h>
+#include <OVR/Kernel/OVR_Array.h>
 
 #ifdef OVR_OS_WIN32
 #include <shlobj.h>
