@@ -1,5 +1,17 @@
 project (LibOVR)
 
+set ( INSTALL_BIN_PATH  bin )
+set ( INSTALL_LIB_PATH  lib )
+set ( INSTALL_AR_PATH   lib )
+set ( INSTALL_HEADERS_PATH include )
+
+foreach(p LIB BIN HEADERS AR)
+  set(var INSTALL_${p}_PATH)
+  if(NOT IS_ABSOLUTE "${${var}}")
+    set(${var} "${CMAKE_INSTALL_PREFIX}/${${var}}")
+  endif()
+endforeach()
+
 include_directories(Include)
 
 set(SOURCE_FILES
@@ -160,7 +172,14 @@ set(OVR_LIBRARIES ${OculusVR_EXTRA_LIBS} CACHE STRING "Dependencies of OculusVR"
 target_link_libraries(OculusVR ${OculusVR_EXTRA_LIBS})
 
 install(TARGETS OculusVR
-  DESTINATION ${CMAKE_INSTALL_PREFIX}/lib) 
+  DESTINATION ${INSTALL_LIB_PATH}) 
 
 install(DIRECTORY Include/
-  DESTINATION ${CMAKE_INSTALL_PREFIX}/include)
+  DESTINATION ${INSTALL_HEADERS_PATH})
+
+if(NOT WIN32)
+if(NOT APPLE)
+install(FILES Projects/Linux/90-oculus.rules
+  DESTINATION /lib/udev/rules.d)
+endif()
+endif()

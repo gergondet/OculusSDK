@@ -1,0 +1,5 @@
+liboculusvr (0.2.5-0trusty1) trusty; urgency=low
+
+  * Initial release
+
+ -- Pierre Gergondet <pierre.gergondet+ppa@gmail.com>  Fri, 23 May 2014 19:19:32 +0900

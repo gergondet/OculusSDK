@@ -1,0 +1,4 @@
+usr/include/OVR.h
+usr/include/*
+usr/lib/lib*.a
+lib/udev/rules.d/*

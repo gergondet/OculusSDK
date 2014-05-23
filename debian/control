@@ -1,0 +1,17 @@
+Source: liboculusvr
+Priority: extra
+Maintainer: Pierre Gergondet <pierre.gergondet+ppa@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), cmake, libudev-dev, libxext-dev, mesa-common-dev, freeglut3-dev, libxinerama-dev, libxrandr-dev
+Standards-Version: 3.9.4
+Section: libs
+Homepage: https://github.com/gergondet/OculusSDK
+#Vcs-Git: git://git.debian.org/collab-maint/liboculusvr.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/liboculusvr.git;a=summary
+
+Package: liboculusvrsdk
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: OculusVR library (developement tools)
+ OculusVR is a packaging of the Oculus SDK provided by the Oculus company based
+ on the community SDK You do not need this package to run Oculus software as-is.
