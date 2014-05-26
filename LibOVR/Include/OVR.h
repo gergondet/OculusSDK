@@ -26,19 +26,19 @@ limitations under the License.
 #ifndef OVR_h
 #define OVR_h
 
-#include <Kernel/OVR_Allocator.h>
-#include <Kernel/OVR_Log.h>
-#include <Kernel/OVR_Math.h>
-#include <Kernel/OVR_System.h>
-#include <Kernel/OVR_Types.h>
-#include <OVR_Device.h>
-#include <OVR_DeviceConstants.h>
-#include <OVR_DeviceHandle.h>
-#include <OVR_DeviceMessages.h>
-#include <OVR_SensorFusion.h>
-#include <OVR_Profile.h>
-#include <Util/Util_LatencyTest.h>
-#include <Util/Util_Render_Stereo.h>
+#include <OVR/Kernel/OVR_Allocator.h>
+#include <OVR/Kernel/OVR_Log.h>
+#include <OVR/Kernel/OVR_Math.h>
+#include <OVR/Kernel/OVR_System.h>
+#include <OVR/Kernel/OVR_Types.h>
+#include <OVR/OVR_Device.h>
+#include <OVR/OVR_DeviceConstants.h>
+#include <OVR/OVR_DeviceHandle.h>
+#include <OVR/OVR_DeviceMessages.h>
+#include <OVR/OVR_SensorFusion.h>
+#include <OVR/OVR_Profile.h>
+#include <OVR/Util/Util_LatencyTest.h>
+#include <OVR/Util/Util_Render_Stereo.h>
 
 #endif
 

@@ -1,3 +1,15 @@
+liboculusvr (0.2.5-0trusty3) trusty; urgency=low
+
+  * Fix libraries issues
+
+ -- Pierre Gergondet <pierre.gergondet+ppa@gmail.com>  Mon, 26 May 2014 11:36:16 +0900
+
+liboculusvr (0.2.5-0trusty2) trusty; urgency=low
+
+  * Fix an issue with OVR.h
+
+ -- Pierre Gergondet <pierre.gergondet+ppa@gmail.com>  Mon, 26 May 2014 11:12:24 +0900
+
 liboculusvr (0.2.5-0trusty1) trusty; urgency=low
 
   * Initial release
