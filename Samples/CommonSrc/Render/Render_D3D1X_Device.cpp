@@ -21,8 +21,8 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "Kernel/OVR_Log.h"
-#include "Kernel/OVR_Std.h"
+#include "OVR/Kernel/OVR_Log.h"
+#include "OVR/Kernel/OVR_Std.h"
 
 #include "Render_D3D1X_Device.h"
 

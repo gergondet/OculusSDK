@@ -22,7 +22,7 @@ limitations under the License.
 ************************************************************************************/
 
 #include "Render_XmlSceneLoader.h"
-#include <Kernel/OVR_Log.h>
+#include <OVR/Kernel/OVR_Log.h>
 
 #ifdef OVR_DEFINE_NEW
 #undef new

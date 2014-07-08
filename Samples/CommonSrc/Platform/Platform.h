@@ -26,7 +26,7 @@ limitations under the License.
 
 #include "OVR.h"
 
-#include "Kernel/OVR_KeyCodes.h"
+#include "OVR/Kernel/OVR_KeyCodes.h"
 
 namespace OVR { namespace Render {
     class RenderDevice;

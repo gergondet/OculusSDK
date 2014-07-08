@@ -13,10 +13,10 @@ otherwise accompanies this software in either electronic or hard copy form.
 
 ************************************************************************************/
 
-#include "Kernel/OVR_System.h"
-#include "Kernel/OVR_Array.h"
-#include "Kernel/OVR_String.h"
-#include "Kernel/OVR_Timer.h"
+#include "OVR/Kernel/OVR_System.h"
+#include "OVR/Kernel/OVR_Array.h"
+#include "OVR/Kernel/OVR_String.h"
+#include "OVR/Kernel/OVR_Timer.h"
 
 #include "Linux_Platform.h"
 #include "Linux_Gamepad.h"

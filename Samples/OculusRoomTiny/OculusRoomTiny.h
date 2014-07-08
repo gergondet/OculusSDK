@@ -27,8 +27,7 @@
 #include "GLFW/glfw3.h"
 
 
-//#include "Util/Util_Render_Stereo.h"
-#include <Kernel/OVR_Timer.h>
+#include <OVR/Kernel/OVR_Timer.h>
 #include "RenderTiny_Device.h"
 
 using namespace OVR;

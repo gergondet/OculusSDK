@@ -22,7 +22,7 @@ limitations under the License.
 *************************************************************************************/
 
 #include "OVR.h"
-#include "Kernel/OVR_String.h"
+#include "OVR/Kernel/OVR_String.h"
 
 #include "../CommonSrc/Platform/Platform_Default.h"
 #include "../CommonSrc/Render/Render_Device.h"

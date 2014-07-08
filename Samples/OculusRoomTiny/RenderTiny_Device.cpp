@@ -23,7 +23,7 @@ limitations under the License.
 
 #include "RenderTiny_Device.h"
 
-#include "Kernel/OVR_Log.h"
+#include "OVR/Kernel/OVR_Log.h"
 
 namespace OVR { namespace RenderTiny {
 

@@ -30,8 +30,8 @@ limitations under the License.
 #error define OVR_D3D_VERSION to 10 or 11
 #endif
 
-#include "Kernel/OVR_String.h"
-#include "Kernel/OVR_Array.h"
+#include "OVR/Kernel/OVR_String.h"
+#include "OVR/Kernel/OVR_Array.h"
 
 #if (OVR_D3D_VERSION == 10 && !defined(_OVR_RENDERER_D3D10)) || \
     (OVR_D3D_VERSION == 11 && !defined(_OVR_RENDERER_D3D11))

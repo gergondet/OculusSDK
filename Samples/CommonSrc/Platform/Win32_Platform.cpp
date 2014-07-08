@@ -21,9 +21,9 @@ limitations under the License.
 
 ************************************************************************************/
 
-#include "Kernel/OVR_System.h"
-#include "Kernel/OVR_Array.h"
-#include "Kernel/OVR_String.h"
+#include "OVR/Kernel/OVR_System.h"
+#include "OVR/Kernel/OVR_Array.h"
+#include "OVR/Kernel/OVR_String.h"
 
 #include "Win32_Platform.h"
 #include "Win32_Gamepad.h"

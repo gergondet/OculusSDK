@@ -30,9 +30,9 @@ limitations under the License.
 #include "../CommonSrc/Render/Render_FontEmbed_DejaVu48.h"
 #include "../CommonSrc/Platform/Gamepad.h"
 
-#include <Kernel/OVR_SysFile.h>
-#include <Kernel/OVR_Log.h>
-#include <Kernel/OVR_Timer.h>
+#include <OVR/Kernel/OVR_SysFile.h>
+#include <OVR/Kernel/OVR_Log.h>
+#include <OVR/Kernel/OVR_Timer.h>
 
 #include "Player.h"
 

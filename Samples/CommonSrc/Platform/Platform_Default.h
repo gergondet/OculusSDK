@@ -25,7 +25,7 @@ limitations under the License.
 #define OVR_Platform_Default_h
 
 // This should select proper header file for the platform/compiler.
-#include <Kernel/OVR_Types.h>
+#include <OVR/Kernel/OVR_Types.h>
 
 #if defined(OVR_OS_WIN32)
   #include "Win32_Platform.h"

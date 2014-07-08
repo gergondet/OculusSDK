@@ -25,7 +25,7 @@ limitations under the License.
 #define INC_Render_XMLSceneLoader_h
 
 #include "Render_Device.h"
-#include <Kernel/OVR_SysFile.h>
+#include <OVR/Kernel/OVR_SysFile.h>
 using namespace OVR;
 using namespace OVR::Render;
 

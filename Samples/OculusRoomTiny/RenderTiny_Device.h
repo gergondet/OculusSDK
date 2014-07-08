@@ -24,14 +24,14 @@ limitations under the License.
 #ifndef OVR_RenderTiny_Device_h
 #define OVR_RenderTiny_Device_h
 
-#include "Kernel/OVR_Math.h"
-#include "Kernel/OVR_Array.h"
-#include "Kernel/OVR_RefCount.h"
-#include "Kernel/OVR_String.h"
-#include "Kernel/OVR_File.h"
-#include "Kernel/OVR_Color.h"
+#include "OVR/Kernel/OVR_Math.h"
+#include "OVR/Kernel/OVR_Array.h"
+#include "OVR/Kernel/OVR_RefCount.h"
+#include "OVR/Kernel/OVR_String.h"
+#include "OVR/Kernel/OVR_File.h"
+#include "OVR/Kernel/OVR_Color.h"
 
-#include "Util/Util_Render_Stereo.h"
+#include "OVR/Util/Util_Render_Stereo.h"
 
 namespace OVR { namespace RenderTiny {
 
