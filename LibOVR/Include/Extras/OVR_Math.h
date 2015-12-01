@@ -39,7 +39,7 @@ limitations under the License.
 #include <stdio.h>
 #include <string.h>
 #include <float.h>
-#include "../OVR_CAPI.h" // Currently required due to a dependence on the ovrFovPort_ declaration.
+#include "OVR_CAPI.h" // Currently required due to a dependence on the ovrFovPort_ declaration.
 
 #if defined(_MSC_VER)
     #pragma warning(push)
